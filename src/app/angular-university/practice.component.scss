@@ -1,0 +1,78 @@
+.body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lock{
+    position: relative;
+    width:50px;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    transition: all .8s;
+    cursor: pointer;
+}
+
+.lock::after{
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border-top: 5px solid #1a1a1a;
+    border-left: 5px solid #1a1a1a;
+    border-right: 5px solid #1a1a1a;
+    //top: -25px;
+    left: 5px;
+    z-index: -1;
+    transition: all .8s;
+}
+
+.lock .key{ 
+    width: 16px;
+    height: 8px;
+    background-color: #1a1a1a;
+    margin: 10px auto 0;
+    border-radius: 15px;
+    transition: all .8s;
+}
+
+.lock::before{
+    position: absolute;
+    content: 'lock';
+    text-align: center;
+    font-size: 8px;
+    font-weight: bolder;
+    color: #fff;
+    letter-spacing: 2px;
+    left: 12.5px;
+    top:5px
+}
+
+.unlock{
+    border: 2px solid #00d455 !important;
+}
+
+.unlock::after{
+    border-top: 5px solid #00d455;
+    border-left: 5px solid #00d455;
+    border-bottom: 5px solid #00d455;
+    border-right: 5px solid transparent;
+}
+
+.unlock .key{
+    transform: rotate(-90deg);
+    background-color: #00d455;
+}
+.unlock::before{
+    content: 'unlock';
+    left:4px;
+    color: #00d455;
+}

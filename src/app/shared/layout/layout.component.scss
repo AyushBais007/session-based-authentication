@@ -1,0 +1,27 @@
+:host{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+mat-drawer{
+    width: 20%
+}
+
+mat-drawer-container{
+    height: 100%;
+}
+
+mat-drawer-content{
+    padding: 20px;
+    height: 100%;
+    //width: 80%;
+}
+
+.scrollBar{
+    position:sticky;
+    top:0;
+    display: flex;
+    width: 100%;
+    z-index: 1111;
+}

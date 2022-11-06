@@ -1,0 +1,24 @@
+<mat-nav-list>
+    <div class="profile-card">
+        <div class="header">
+            <h2>
+                {{ emp_name }}
+            </h2>
+        </div>
+        <img class=" image" src="assets/A_alphabet_logo.png" alt="error">
+    </div>
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>pages</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">dashboard</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/home">home</a>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/practice">practice </a>
+    <mat-divider></mat-divider>
+
+    <h2 matSubheader>tools</h2>
+    <a mat-list-item routerLinkActive="list-item-active" routerLink="/home">
+    <mat-icon>
+        import_contacts
+    </mat-icon>  
+    </a>
+</mat-nav-list>

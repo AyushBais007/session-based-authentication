@@ -1,0 +1,14 @@
+<app-header (isShowSidebar) ="sidenav.toggle($event)" [isMenuOpened] = "isShowSidebar"></app-header>
+<mat-drawer-container>
+    <mat-drawer 
+    #sidenav
+    mode = 'side' [(opened)]="isShowSidebar">
+            <app-sidebar></app-sidebar>
+    </mat-drawer>
+    <mat-drawer-content (scroll)="onScroll($event)">
+        <mat-progress-bar color="warn" [value]="progresssValue" mode="determinate" class="scrollBar"></mat-progress-bar>
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+</mat-drawer-container>
+
+<app-footer></app-footer>

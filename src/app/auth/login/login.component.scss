@@ -1,0 +1,307 @@
+//  .grid_container{
+//     display: grid;
+//    background-color: antiquewhite;
+//    //grid-template-columns: 200px  auto 100px;
+//      //grid-template-columns: 1fr 2fr 1fr;
+//     border:3px solid rgb(107, 12, 131);
+//  //grid-template-columns: repeat(4,auto);
+//     grid-template-rows: 1fr 4fr;
+//     grid-auto-rows: 2fr;
+//     grid-gap: 1rem;
+//  }
+
+// .item{
+//     // height: 100px;
+//      //width: 100px;
+//     background-color: rgb(165, 165, 244);
+//    // margin: 3px;
+//     border: 3px solid black;
+// }
+
+// .main{
+//     height: 50vh;
+// }
+
+// .flex-box{
+//     margin-top: 1rem;
+//     display: flex;
+//     border: 2px solid black;
+//     height: 50rem;
+
+//     justify-content:center;
+//     //align-items: center;
+//     flex-wrap: wrap;
+//     flex-direction: column;
+// }
+
+// .f_item{
+//     border:2px solid red;
+//     width: 200px;
+//     margin: 10px 8px;
+//     background-color: bisque;
+// }
+
+// .one{
+//     //flex-grow:2;
+//     background: rgb(95, 57, 57);
+
+// }
+
+// .two{
+//    // flex-grow: 4;
+//     background: rgb(193, 237, 62);
+
+// }
+
+// .three{
+//     //flex-grow: 3;
+//     background: rgb(86, 23, 214);
+// }
+
+
+// .login_outer {
+//     height: 100vh;
+//     width: 100vw;
+//     // display: grid;
+//     // grid-template-columns: 1fr 3fr;
+//     // grid-template-rows: 1fr 4fr;
+//     // //border: 1px solid red;
+//     // background-color: rgb(165, 165, 244);
+//     // grid-template-areas: 
+//     // "a a"
+//     // "c b";
+//     display: flex;
+
+
+//     &__side_content {
+//         height: 99%;
+//         width: 60%;
+//         background-color: blue;
+//         border: 1px solid red;
+//         grid-area: b;
+//     }
+
+//     &__main_content {
+//         height: 99%;
+//         width: 40%;
+//         display: flex;
+//         flex-direction: column;
+//         background-color: white;
+//         border: 1px solid black;
+//         grid-area: c;
+//         //justify-content: center;
+//         align-items: center;
+//     }
+//     &__login_header{
+//         display: flex;
+//         border: 1px solid yellow;
+//         align-self: center;
+//     }
+//     &__login_inner{
+//         width: 65%;
+//         margin-top: 16px;
+//         display: flex;
+//         flex-direction: column;
+//         //justify-content: center;
+//         align-items: center;
+//         border: 1px solid black;
+//     }
+// }
+
+// .title {
+//     //height: 10vh;
+//     //width:99vw;
+//     border: 1px solid black;
+//     background: red;
+//     grid-area: a;
+// }
+// .login_header{
+//     display: flex;
+//     border: 1px solid yellow;
+//     align-self: center;
+// }
+// .login_inner{
+//     margin-top: 16px;
+//     display: flex;
+//     flex-direction: column;
+//     //justify-content: center;
+//     align-items: center;
+//     border: 1px solid black;
+// }
+
+
+
+/////////////////////////netflix page//////////////////////////////
+
+// .netflix_page {
+//     height: 100%;
+//     width: 100%;
+//     display: block;
+// }
+
+// .wrapper {
+//     margin: 0;
+//     padding: 0;
+//     // position: relative;
+//     z-index: 0;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .background {
+//     display: block;
+//     position: absolute;
+//     height: 100%;
+//     z-index: -1;
+
+
+// }
+
+// .header {
+//     width: 100%;
+//     height: 90px;
+//     background-color: transparent;
+// }
+
+// div {
+//     display: block;
+// }
+
+// .login_body {
+//     background-color: rgba($color: #000000, $alpha: .8);
+//     width: 450px;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 0 30 30 0;
+// }
+
+// .login_main {
+//     background-color: transparent;
+//     padding: 60px 60px 60px;
+//     color: aliceblue;
+// }
+
+// .login_form {
+//     display: flex;
+//     flex-direction: column;
+// }
+
+.input {
+ //background-color: #333;
+    //color: #8C8C8C;
+    padding-top: 10px;
+    padding-left: 10px;
+    //padding-bottom: 10px;
+    appearance: outline;
+    border: aqua;
+
+}
+
+///////////////////////////////end/////////////////
+
+
+//////////////////////start d1/////////////////////////@at-root
+
+.d1_page{
+    height: 100vh;
+    width: 100vw;
+    background-color:rgba($color: #000000, $alpha: .8);
+}
+
+// .header{
+//     font-family: sans-serif;
+//     display: flex;
+//     border: 2px solid black;
+//     justify-content:space-between;
+//     z-index: 1;
+//     background-color: rgba(11, 155, 227,.6);
+//     //height: 70px;
+// }
+
+.header {
+    background-color: black;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.h1{
+    letter-spacing:1.5rem;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title{
+    //position: absolute;
+    text-align: center;
+    left: 0px;;
+}
+
+.navbar{
+    position: relative;
+    right: 10px;
+    //display: flex;
+    //justify-content: end;
+}
+.navbar>ul{
+   // margin: 0;
+    padding: 0;
+    display: flex;
+   gap: 10px;
+    list-style-type: none;    
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20vh);
+    border: 1px solid gray;
+}
+
+.login_outer{
+    border: 1px solid aqua;
+    box-sizing: border-box;
+    box-shadow: 10px 10px 10px ;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    background-color: rgba($color: #000000, $alpha: .6);
+}
+.sumbit_button{
+    background-color: rgba($color: red, $alpha: 06);
+    color: aqua;
+}
+.login_form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: aqua;
+}
+
+.mat-raised-button.mat-button-disabled{
+    background-color: rgb(29 209 206 / 95%) !important;
+}
+
+
+.footer {
+    background-color: black;
+    color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}

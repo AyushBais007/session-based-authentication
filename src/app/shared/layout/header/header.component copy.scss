@@ -1,0 +1,11 @@
+ul li{
+    list-style: none;
+}
+
+mat-toolbar{
+   // background: rgb(106, 11, 11);
+    //background: -moz-linear-gradient(229deg, rgb(116, 17, 17) 30%, rgb(31, 140, 7) 0%, #23b726f9 0%);
+    background: -webkit-linear-gradient(229deg, #c2c6b1 30%, #cdcf28ed 0%, #9ba528 0%);
+    //background: -webkit-linear-gradient(229deg, rgb(55, 51, 51) 30%, aqua 0%, aqua 0%)
+    //background:( #c2c6b1 30%, #cdcf28ed 0%, #9ba528 0%)
+}

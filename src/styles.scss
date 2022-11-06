@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+@font-face {
+  font-family: Poppins;
+  src: url('./assets/Poppins-Black.ttf')format('truetype');
+}
+
+.Poppins{
+  font-family: Poppins;
+}
+
+table {
+    width: 100%;
+    text-align: center !important;
+    // margin-bottom: 1.5em;
+    border-spacing: 0;
+  }
+  .mat-elevation-z8{
+    overflow: auto;
+    box-shadow: unset !important;
+  }
+  
+  table .table-header th{
+    text-align: center !important;
+    background-color: gray !important;
+    color: #fff !important;
+    white-space: normal;
+    padding: .5em;
+    vertical-align: middle;
+    height: 40px !important;
+    // font-weight: 400;
+    // padding: 2%;
+    &:first-of-type {
+      text-align: left;
+    }
+  }
+  
+  th.mat-header-cell:last-of-type, td.mat-cell:last-of-type, td.mat-footer-cell:last-of-type {
+    padding: 3px !important;
+  }
+  
+  tr.mat-footer-row {
+    //background-color: $sub-primary-color;//$header-button-font-color;
+    height: 40px !important;
+    font-weight: 500;
+    & td{
+      color:yellow !important;
+      white-space: normal;
+    }
+  }
+  
+  table .table-row {
+    padding: 2%;
+    height: 30px !important;
+  }
